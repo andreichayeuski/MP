@@ -1,0 +1,7 @@
+﻿  Lab2_1.cpp
+  Combi.cpp
+d:\документы\университет\4 семестр\мп\лабораторные\lab2\lab2_1\lab2_1\combi.cpp(10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+d:\документы\университет\4 семестр\мп\лабораторные\lab2\lab2_1\lab2_1\combi.cpp(35): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdlib.h(1334): note:  см. объявление "itoa"
+  Создание кода...
+  Lab2_1.vcxproj -> D:\Документы\Университет\4 семестр\МП\Лабораторные\Lab2\Lab2_1\Debug\Lab2_1.exe
