@@ -25,18 +25,18 @@ namespace salesman
 					break;
 				}
 			}
-			r += dest[perm.GetPerm()[i][cities-1]][perm.GetPerm()[i][0]];
+			r += dest[perm.GetPerm()[i][cities - 1]][perm.GetPerm()[i][0]];
 			if (r < min)
 			{
 				min = r;
 				n = i;
 			}
- 			r = 0;
+			r = 0;
 		}
 
 		std::cout << "Расстояние: " << min << std::endl;
 		std::cout << "Путь №" << n + 1 << ": ";
-		
+
 		for (int i = 0; i < cities; i++)
 		{
 			std::cout << set[perm.GetPerm()[n][i]] << "  ";
